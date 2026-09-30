@@ -1,0 +1,15 @@
+{
+  "name": "natural-korean",
+  "owner": {
+    "name": "wonwoo",
+    "url": "https://github.com/wonwoo"
+  },
+  "description": "자연스러운 한국어로 답하게 하는 Claude Code, Codex 플러그인",
+  "plugins": [
+    {
+      "name": "natural-korean",
+      "source": "./",
+      "description": "사람이 쓴 것처럼 읽히는 자연스러운 한국어로 답하게 합니다. Claude Code에서는 output style로, Codex에서는 세션을 시작할 때 넣는 지침으로 적용됩니다."
+    }
+  ]
+}

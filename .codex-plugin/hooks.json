@@ -1,0 +1,19 @@
+{
+  "description": "Codex 세션을 시작할 때 output-styles/dev.md의 문체 지침을 넣습니다.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "^(startup|clear|compact)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "awk '{sub(/\\r$/,\"\")} NR==1&&/^---$/{f=1;next} f&&/^---$/{f=0;next} !f' \"$PLUGIN_ROOT/output-styles/dev.md\"",
+            "timeout": 5,
+            "statusMessage": "Loading natural-korean...",
+            "additionalContextLimit": 0
+          }
+        ]
+      }
+    ]
+  }
+}

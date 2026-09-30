@@ -1,0 +1,14 @@
+{
+  "name": "natural-korean",
+  "displayName": "Natural Korean",
+  "version": "1.0.0",
+  "description": "사람이 쓴 것처럼 읽히는 자연스러운 한국어로 답하게 하는 output style입니다. 개발용(dev)과 일반 대화용(general) 두 가지를 제공합니다.",
+  "author": {
+    "name": "wonwoo",
+    "url": "https://github.com/wonwoo"
+  },
+  "homepage": "https://github.com/wonwoo/natural-korean",
+  "repository": "https://github.com/wonwoo/natural-korean",
+  "license": "MIT",
+  "keywords": ["korean", "output-style", "writing", "style"]
+}
