@@ -1,6 +1,6 @@
 {
   "name": "natural-korean",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "사람이 쓴 것처럼 읽히는 자연스러운 한국어로 답하게 합니다. 세션을 시작할 때마다 문체 지침을 넣습니다.",
   "author": {
     "name": "wonwoo",
